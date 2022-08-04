@@ -1,21 +1,13 @@
 ﻿using System;
-namespace task1
+namespace task1.test2
 {
-    class Program
+    class program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            List<Product> inv = new List<Product>;
-            inv.Add(new Product("A", 5.9, 3));
-            inv.Add(new Product("A", 8.2, 2));
-
-            inv.Add(new Product("A", 3.5, 4);
-            inv.Add(new Product("A", 1.8, 8));
-            Console.WriteLine("Product List: ");
-            foreach(Product i in inv)
-            {
-                Console.WriteLine(" " + i);
-            }
+            Pair<String> pair = new Pair<string>("AN", "NGA");
+            Console.WriteLine("({0}, {1})", pair.First, pair.Second);
+            Console.ReadLine();
         }
     }
 }
